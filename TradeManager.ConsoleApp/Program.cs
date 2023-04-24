@@ -11,7 +11,8 @@ namespace TradeManager.ConsoleApp
         static void Main(string[] args)
         {
             var tradeManager = new TradeManager();
-            var trades = tradeManager.CreateTrades(10);
+            var numberOfTrades = 10;
+            var trades = tradeManager.CreateTrades(numberOfTrades);
         }
     }
 }
